@@ -1,1 +1,4 @@
-Redirect 302 / https://sk6008.myportfolio.com
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteRule index\.html$ https://sk6008.myportfolio.com [R=307,L]
+</IfModule>
