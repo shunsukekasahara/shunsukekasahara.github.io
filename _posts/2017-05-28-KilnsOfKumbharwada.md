@@ -39,11 +39,6 @@ description: Kilns of Kumbharwada is a collaborative design project with the goa
       <img src="/images/kilns-of-kumbharwada/kilns-of-kumbharwada-7.jpg">
     </div>
   </div>
-  <div class="post-image-container">
-    <div class="post-image">
-      <img src="/images/kilns-of-kumbharwada/kilns-of-kumbharwada-8.jpg">
-    </div>
-  </div>
 
   <div class="post-text-container">
     Developed a cost effective and easy to maintain filtering system to manage air pollution resulting from firing kilns in the potters community of Mumbai. Modeled and built a chimney that assists in reducing the community’s exposure to noxious fumes, while the integrated wet scrubbing system filters the smoke, leading to lower levels of pollution in the area.
