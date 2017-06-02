@@ -24,7 +24,7 @@ You can find the source code for Jekyll at
     <div class="post-text-container-column">
       <div class="post-text-container">
         <h4>Languages:</h4>
-        <p>English<br>Japanese(Native)</p>
+        <p>English<br>Japanese (Native)</p>
       </div>
       <div class="post-text-container">
         <h4>Programming:</h4>
@@ -34,7 +34,7 @@ You can find the source code for Jekyll at
     <div class="post-text-container-column">
       <div class="post-text-container">
         <h4>Prototyping Skills:</h4>
-        <p>Design Thinking<br>Rapid Prototyping<br>Laser cutter<br>3D printer<br>CNC milling<br>Vinyl cutter(Basic)</p>
+        <p>Design Thinking<br>Rapid Prototyping<br>Laser cutter<br>3D printer<br>CNC milling<br>Vinyl cutter (Basic)</p>
       </div>
     </div>
     <div class="post-text-container-column">
