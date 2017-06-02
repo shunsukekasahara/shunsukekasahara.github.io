@@ -10,7 +10,6 @@ permalink: /:categories/other-projects/
 <div class="main">
   <div class="post-text-container">
     <h4>Design and Innovation (ENGR-AD 110J)</h4>
-    <p>Volunteered to build a house for a local family in a village in northeastern Thailand, as a part of a team of students and faculty from NYU Abu Dhabi.</p>
   </div>
   <div class="post-image-container">
     <div class="post-image">
