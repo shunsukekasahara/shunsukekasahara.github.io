@@ -157,10 +157,20 @@ pre {
   padding-left: 0;
   padding-top: 30px;
   padding-bottom: 20px; }
+  @media screen and (max-width: 900px) {
+    .wrapper {
+      width: 86%;
+      max-width: 100%;
+      margin-left: 7%;
+      margin-right: 7%;
+      padding-right: 0;
+      padding-left: 0; } }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      width: 86%;
+      max-width: 100%;
+      margin-left: 7%;
+      margin-right: 7%;
       padding-right: 0;
       padding-left: 0; } }
 
