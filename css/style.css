@@ -276,8 +276,8 @@ pre {
      }
      .site-nav {
        position: absolute;
-       width: 100vw;
-       height: 100vh;
+       width: auto;
+       height: auto;
        top: 0;
        right: 0;
        padding: 0;
@@ -289,7 +289,7 @@ pre {
          display: block;
          float: right;
          margin-top: 32.94px;
-         margin-right: 7%;
+         margin-right: 10%;
          width: 36px;
          height: 36px;
          z-index: 2;
@@ -312,9 +312,9 @@ pre {
          display: block;
          position: absolute;
          margin-top: 80.94px;
-         height: 100%;
+         width: 100vw;
+         height: 100vh;
          right: 0;
-         width: 100%;
          background-color: #fdfdfd;
          opacity: 1;
          z-index: 100000;
