@@ -40,11 +40,6 @@ body {
   font: normal 22px "DubaiLight";
   color: #999999;
 }
-@media screen and (max-width: 700px) {
-  body {
-    font-size: 12px;
-  }
-}
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -107,9 +102,11 @@ a {
       text-decoration: none; }
   .page-title a {
     font: bold 16px "DubaiMedium";
+    color: #999999;
     text-transform: uppercase; }
   .gallery-title a {
     font: bold 16px "DubaiMedium";
+    color: #999999;
     text-transform: uppercase; }
 
 /**
@@ -154,7 +151,7 @@ pre {
   margin-left: 15%;
   margin-right: 15%;
   max-width: 1100px;
-  min-width: 330px;
+  min-width: 370px;
   /*max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));*/
   margin-right: auto;
@@ -211,7 +208,7 @@ pre {
  * Site header
  */
  .site-header {
-   width: 100%;
+   width: 300px;
    border-top: none;
    border-bottom: none;
    min-height: 55.95px; }
@@ -270,22 +267,25 @@ pre {
 
 
    @media screen and (max-width: 700px) {
-     .trigger {
-       display: block;
-       width: auto;
+     .site-header {
+       width: 300px;
      }
      .site-nav {
        position: absolute;
-       width: auto;
-       top: 62px;
-       left: 0;
-       background-color: none;
+       width: 100vw;
+       height: 100vh;
+       top: 0;
+       right: 0;
+       background-color: transparent;
        border: 0;
        border-radius: 0;
-       text-align: left; }
+       text-align: center; }
        .site-nav label[for="nav-trigger"] {
          display: block;
-         width: 100%;
+         float: right;
+         margin-top: 42.94px;
+         margin-right: 7%;
+         width: 36px;
          height: 36px;
          z-index: 2;
          cursor: pointer; }
@@ -301,59 +301,44 @@ pre {
            fill: #424242; }
        .site-nav input ~ .trigger {
          clear: both;
-         width: 100%;
          display: none; }
        .site-nav input:checked ~ .trigger {
          display: block;
-         width: 100%;
+         position: absolute;
+         margin-top: 80.94px;
          height: 100%;
+         right: 0;
+         width: 100%;
          background-color: #fdfdfd;
+         opacity: 1;
+         z-index: 100000;
          padding-bottom: 5px; }
        .site-nav .page-link {
          display: block;
-         padding: 5px 10px;
+         padding: 15px 10px;
          margin-left: 20px; }
          .site-nav .page-link:not(:last-child) {
-           margin-right: 0; } }
+           margin-right: 0; }
+       .page-title {
+         padding-top: 5px;
+         display: block;
+         margin-top: 25px;
+         vertical-align: bottom;
+       }
+       .gallery-title {
+         padding-top: 5px;
+         display: block;
+         margin-top: 25px;
+         vertical-align: bottom;
+       }
+       .page-title a {
+         font: normal 15px "DubaiLight";
+       }
+       .gallery-title a {
+         font: normal 15px "DubaiLight";
+       }
+     }
 
-    @media screen and (max-width: 600px) {
-      .site-nav {
-        position: absolute;
-        top: 62px;
-        left: 0;
-        background-color: none;
-        border: 0;
-        border-radius: 0;
-        text-align: left; }
-        .site-nav label[for="nav-trigger"] {
-          display: block;
-          float: left;
-          width: 36px;
-          height: 36px;
-          z-index: 2;
-          cursor: pointer; }
-          .site-nav .menu-icon {
-            display: block;
-            float: left;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center; }
-            .site-nav .menu-icon > svg path {
-              fill: #424242; }
-              .site-nav input ~ .trigger {
-                clear: both;
-                display: none; }
-                .site-nav input:checked ~ .trigger {
-                  display: block;
-                  padding-bottom: 5px; }
-                  .site-nav .page-link {
-                    display: block;
-                    padding: 5px 10px;
-                    margin-left: 20px; }
-                    .site-nav .page-link:not(:last-child) {
-                      margin-right: 0; } }
 
 /**
  * Site footer
@@ -362,6 +347,11 @@ pre {
    font-family: DubaiLight;
    color: #dddddd;
    text-align: center;
+ }
+ @media screen and (max-width: 700px) {
+   .footer-copyright {
+     font-size: 12px;
+  }
  }
 .site-footer {
   border-top: none ;
@@ -671,9 +661,10 @@ pre {
   position: absolute;
   top: 15%;
   left: 10%;
-  width: 100%;
+  width: 90%;
   height: auto;
   vertical-align: middle;
+  overflow: auto;
 }
 .overlay-text h4 {
   font-family: Dubai;
@@ -712,20 +703,51 @@ pre {
 }
 
 .post h1 {
-  width: 86%;
-  margin-left: 7%;
+  width: 88%;
+  margin-left: 6%;
   margin-bottom: 0;
   font-size: 55px;
   line-height: 55px;
 }
 .post-text-container {
-  width: 86%;
-  margin-left: 7%;
+  width: 88%;
+  margin-left: 6%;
   padding-top: 25px;
   padding-bottom: 25px;
   font-family: DubaiLight;
   font-size: 21px;
   color: #aaaaaa;
+}
+@media screen and (max-width: 700px) {
+  .overlay-text h4 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .overlay-text p {
+    font-size: 10px;
+    line-height: 5px;
+  }
+  .post h1 {
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .post-text-container {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: DubaiLight;
+    font-size: 16px;
+    color: #aaaaaa;
+  }
+  .post-text-container h4{
+    font-size: 16px;
+  }
+  .post-text-container p{
+    font-size: 16px;
+  }
 }
 .post-text-container-column-yoko .post-text-container {
   font-size: 0;
@@ -733,7 +755,6 @@ pre {
 .post-text-container-column-yoko .post-text-container .post-text-container-column .post-text-container {
   font-size: 21px;
 }
-
 .post-text-container-column {
   display: inline-block;
   width: 33%;
@@ -742,6 +763,17 @@ pre {
   border: 0;
   margin: 0;
   padding: 0;
+}
+@media screen and (max-width: 700px) {
+  .post-text-container-column {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
 }
 .post-text-container-column .post-text-container {
   margin: 0;
@@ -753,7 +785,7 @@ pre {
   margin: 0;
   width: 100%;
   height: auto;
-  padding: 10px;
+  padding: 0;
 }
 .post-image {
   width: 100%;
