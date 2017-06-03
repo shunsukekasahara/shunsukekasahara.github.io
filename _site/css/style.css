@@ -364,6 +364,11 @@ pre {
   padding-top: 30px;
   min-width: none;
  }
+.site-footer .wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 /*
 .footer-heading {
   font-size: 18px;
