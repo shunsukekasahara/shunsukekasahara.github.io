@@ -40,6 +40,11 @@ body {
   font: normal 22px "DubaiLight";
   color: #999999;
 }
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 12px;
+  }
+}
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -213,10 +218,11 @@ pre {
 
  .site-title {
    font: bold 25px "DubaiMedium";
-   line-height: 62px;
+   line-height: 25px;
    letter-spacing: normal;
    text-transform: uppercase;
    margin-bottom: 0;
+   margin-top: 40px;
    float: left;
    color: #111111; }
    .site-title, .site-title:visited {
@@ -224,7 +230,8 @@ pre {
 
  .site-nav {
    float: right;
-   line-height: 62px; }
+   line-height: 25px;
+   margin-top: 40px; }
    /*.site-nav .nav-trigger {
      display: none; }
    .site-nav .menu-icon {
@@ -234,6 +241,12 @@ pre {
      line-height: 1; }
      .page-link-customized:not(:last-child) {
        margin-right: 20px; }
+
+   @media screen and (max-width: 700px) {
+     .site-nav {
+       margin-top: 18px;
+     }
+   }
 
    .page-title {
      padding-left: 0;
@@ -408,6 +421,12 @@ pre {
   margin-left: 0;
   margin-right: 0;
   padding: 150px 0; }
+
+@media screen and (max-width: 700px) {
+  .page-content {
+    padding: 90px 0;
+  }
+}
 
 .page-heading {
   font-size: 20px; }
