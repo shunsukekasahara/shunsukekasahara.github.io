@@ -665,11 +665,10 @@ pre {
   width: 100%;
   height: 100%;
   transition: .3s ease;
-  background-color: #111111;
-  opacity: 0;
+  background: rgba(0,0,0,0);
 }
 .cover-image:hover .overlay {
-  opacity: 0.75;
+  background: rgba(0,0,0,0.55);
 }
 .overlay-text {
   position: absolute;
@@ -682,15 +681,21 @@ pre {
 }
 .overlay-text h4 {
   font-family: Dubai;
-  font-size: 30px;
+  font-size: 0;
   line-height: 30px;
   color: #ffffff;
 }
 .overlay-text p {
   font-family: DubaiLight;
-  font-size: 20px;
+  font-size: 0;
   line-height: 15px;
   color: #ffffff;
+}
+.cover-image:hover .overlay-text h4 {
+  font-size: 30px;
+}
+.cover-image:hover .overlay-text p {
+  font-size: 20px;
 }
 .cover-text-container {
   position: relative;
