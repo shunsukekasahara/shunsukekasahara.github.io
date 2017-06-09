@@ -739,10 +739,16 @@ pre {
 }
 @media screen and (max-width: 700px) {
   .overlay-text h4 {
+    font-size: 0;
+  }
+  .overlay-text p {
+    font-size: 0;
+  }
+  .cover-image:hover .overlay-text h4 {
     font-size: 20px;
     line-height: 20px;
   }
-  .overlay-text p {
+  .cover-image:hover .overlay-text p {
     font-size: 10px;
     line-height: 5px;
   }
