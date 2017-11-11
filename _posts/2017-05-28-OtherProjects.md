@@ -8,6 +8,15 @@ year: 2016 - 2017
 permalink: /:categories/other-projects/
 ---
 <div class="main">
+  <div class="post-header">
+    <div class="post-image">
+      <img src="/images/other-projects/other-projects-header.jpg">
+    </div>
+    <div class="post-text-container">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description}}</p>
+    </div>
+  </div>
   <div class="post-text-container">
     <h4>Design and Innovation (ENGR-AD 110J)</h4>
   </div>

@@ -152,7 +152,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  width: 70%;
+  width: 90%;
   margin: 0;
   max-width: 1100px;
   min-width: 340px;
@@ -164,19 +164,19 @@ pre {
   padding-bottom: 20px; }
   @media screen and (max-width: 900px) {
     .wrapper {
-      width: 90%;
+      width: 96%;
       max-width: 100%;
       margin: 0;
-      margin-right: 5%;
-      margin-left: 5%;
+      margin-right: auto;
+      margin-left: auto;
       padding: 0; } }
   @media screen and (max-width: 800px) {
     .wrapper {
-      width: 90%;
+      width: 96%;
       max-width: 100%;
       margin: 0;
-      margin-right: 5%;
-      margin-left: 5%;
+      margin-right: auto;
+      margin-left: auto;
       padding: 0; } }
 
 
@@ -211,6 +211,13 @@ pre {
  * Site header
  */
  .site-header {
+   width: 84%;
+   margin-left: 8%;
+   border-top: none;
+   border-bottom: none;
+   min-height: 55.95px; }
+ }
+ .site-title-container {
    width: 300px;
    border-top: none;
    border-bottom: none;
@@ -271,7 +278,7 @@ pre {
 
 
    @media screen and (max-width: 700px) {
-     .site-header {
+     .site-title-container {
        width: 300px;
      }
      .site-nav {
@@ -351,6 +358,7 @@ pre {
  */
  .footer-copyright {
    font-family: DubaiLight;
+   font-size: 12px;
    color: #dddddd;
    text-align: center;
  }
@@ -423,11 +431,11 @@ pre {
   width: 100%;
   margin-left: 0;
   margin-right: 0;
-  padding: 150px 0; }
+  padding: 80px 0; }
 
 @media screen and (max-width: 700px) {
   .page-content {
-    padding: 90px 0;
+    padding: 30px 0;
   }
 }
 
@@ -451,9 +459,10 @@ pre {
 /**
  * Posts
  */
-/*.post-header {
-  margin-bottom: 30px; }
+.post-header {
+  margin-bottom: 0; }
 
+/*
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
@@ -722,19 +731,24 @@ pre {
 }
 
 .post h1 {
-  width: 88%;
-  margin-left: 6%;
-  margin-bottom: 0;
-  font-size: 55px;
-  line-height: 55px;
+  font: bold 45px "DubaiMedium";
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 5px;
+  line-height: 45px;
+}
+.post-header .post-text-container {
+  padding-top: 45px;
+  padding-bottom: 45px;;
 }
 .post-text-container {
-  width: 88%;
-  margin-left: 6%;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 25px;
   padding-bottom: 25px;
   font-family: DubaiLight;
-  font-size: 21px;
+  font-size: 18px;
   color: #aaaaaa;
 }
 @media screen and (max-width: 700px) {
@@ -752,12 +766,12 @@ pre {
     font-size: 10px;
     line-height: 5px;
   }
-  .post h1 {
+  /*.post h1 {
     width: 100%;
     margin: 0;
     font-size: 30px;
     line-height: 30px;
-  }
+  }*/
   .post-text-container {
     width: 100%;
     margin-left: 0;
@@ -808,7 +822,9 @@ pre {
   overflow: hidden;
   border: 0;
   margin: 0;
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   height: auto;
   padding: 0;
   padding-top: 10px;

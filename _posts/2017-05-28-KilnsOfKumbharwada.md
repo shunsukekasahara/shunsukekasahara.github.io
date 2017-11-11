@@ -9,10 +9,22 @@ year: 2017
 description: Kilns of Kumbharwada is a collaborative design project with the goal of producing cost-effective and practical approaches to managing air pollution resulting from firing kilns and reducing a community's exposure to noxious fumes.
 ---
 <div class="main">
+  <div class="post-header">
+    <div class="post-image">
+      <img src="/images/kilns-of-kumbharwada/kilns-of-kumbharwada-header.jpg">
+    </div>
+    <div class="post-text-container">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description}}</p>
+    </div>
+  </div>
   <div class="post-image-container">
     <div class="post-image">
       <img src="/images/kilns-of-kumbharwada/kilns-of-kumbharwada-2.jpg">
     </div>
+  </div>
+  <div class="post-text-container">
+    <p>An experimental chimney has been designed and built in conjunction with experts from Kumbharwada, facilitators from urbz, and NYU Abu Dhabi. This design helps reduce local exposure to smoke. With the addition of a wet scrubbing system, there is a possibility to filter particulate matter from the released smoke and potentially further lower the level of pollution released in the broader area.</p>
   </div>
   <div class="post-image-container">
     <div class="post-image">
