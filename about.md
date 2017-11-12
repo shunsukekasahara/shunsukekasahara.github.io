@@ -7,7 +7,7 @@ permalink: /about/
 <div class="post-text-container">
 <h4>Shunsuke Kasahara</h4>
 <p>I am a Mechanical Engineer, currently pursuing B.S. in Mechanical Engineering at New York University Abu Dhabi. Building things has always been my passion since kindergarten, and I strive to design and build cool things. My main interests are product design, mechanical design and manufacturing. Before coming to NYU Abu Dhabi, I studied at Nishiyamato Gakuen High School in Nara, Japan.
-<br> If interested, please <a class = "cv-link" target = "_blank" href = "../cv.pdf">check out my CV</a>. </p>
+<br> If interested, please <a class = "cv-link" target = "_blank" href = "../ShunsukeKasahara.pdf">check out my CV</a>. </p>
 </div>
 
 <div class="post-text-container-column-yoko">
