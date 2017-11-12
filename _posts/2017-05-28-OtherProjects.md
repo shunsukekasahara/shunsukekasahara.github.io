@@ -9,11 +9,13 @@ permalink: /:categories/other-projects/
 ---
 <div class="main">
   <div class="post-header">
-    <div class="post-image">
+    <!-- <div class="post-image-top">
       <img src="/images/other-projects/other-projects-header.jpg">
-    </div>
+    </div> -->
     <div class="post-text-container">
+    <div class="post-title-container">
       <h1>{{ page.title }}</h1>
+    </div>
       <p>{{ page.description}}</p>
     </div>
   </div>

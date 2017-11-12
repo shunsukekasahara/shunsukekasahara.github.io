@@ -42,7 +42,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }*/
 body {
   font: normal 22px "DubaiLight";
-  color: #999999;
+  color: #555;
   width: 100%;
 }
 /**
@@ -359,7 +359,7 @@ pre {
  .footer-copyright {
    font-family: DubaiLight;
    font-size: 12px;
-   color: #dddddd;
+   color: #505050;
    text-align: center;
  }
  @media screen and (max-width: 700px) {
@@ -727,29 +727,34 @@ pre {
 .cover-text p {
   font-family: DubaiLight;
   font-size: 16px;
-  color: #aaaaaa;
+  color: #505050;
 }
 
 .post h1 {
-  font: bold 45px "DubaiMedium";
+  font: bold 45px "DubaiLight";
   width: 100%;
-  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5px;
   line-height: 45px;
+}
+.post-title-container {
+  margin-bottom: 33px;
+  text-align: center;
 }
 .post-header .post-text-container {
   padding-top: 45px;
   padding-bottom: 45px;;
 }
 .post-text-container {
-  width: 84%;
+  width: 76%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 25px;
   padding-bottom: 25px;
   font-family: DubaiLight;
-  font-size: 18px;
-  color: #aaaaaa;
+  font-size: 21px;
+  color: #505050;
 }
 @media screen and (max-width: 700px) {
   .overlay-text h4 {
@@ -779,7 +784,7 @@ pre {
     padding-bottom: 15px;
     font-family: DubaiLight;
     font-size: 16px;
-    color: #aaaaaa;
+    color: #505050;
   }
   .post-text-container h4{
     font-size: 16px;
@@ -792,7 +797,7 @@ pre {
   font-size: 0;
 }
 .post-text-container-column-yoko .post-text-container .post-text-container-column .post-text-container {
-  font-size: 21px;
+  font-size: 18px;
 }
 .post-text-container-column {
   display: inline-block;
@@ -838,6 +843,21 @@ pre {
 }
 .post-image {
   width: 100%;
+}
+.post-image-top {
+    position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.post-image-top iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .darker-text {
   color: #6d6d6d;

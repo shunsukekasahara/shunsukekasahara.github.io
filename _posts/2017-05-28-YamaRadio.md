@@ -11,11 +11,14 @@ description: Yama Radio is a radio for mountaineers. It is minimalistic and modu
 ---
 <div class="main">
   <div class="post-header">
-    <div class="post-image">
+    <div class="post-image-top">
       <img src="/images/yama-radio/yama-radio-header.jpg">
     </div>
     <div class="post-text-container">
+    <div class="post-title-container">
       <h1>{{ page.title }}</h1>
+      <p>RADIO FOR MOUNTAINEERS</p>
+    </div>
       <p>{{ page.description}}</p>
     </div>
   </div>
